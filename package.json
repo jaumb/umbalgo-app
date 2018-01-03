@@ -1,0 +1,53 @@
+{
+  "name": "umbalgo-app",
+  "version": "0.1.0",
+  "description": "An algorithm visualization companion site",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "d3": "^4.12.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "engines": {
+    "node": "9.*",
+    "npm": "5.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaumb/umbalgo-app.git"
+  },
+  "keywords": [
+    "algorithms",
+    "visualize",
+    "d3",
+    "react"
+  ],
+  "author": "University of Massachusetts Boston",
+  "contributors": [
+    "Jason Curran",
+    "Tory Wheelwright",
+    "Jeff Amari",
+    "Nikhil Sidhwani",
+    "Kinjalk Parmar"
+  ],
+  "license": "MIT"
+}
